@@ -21,10 +21,10 @@ const Navbar = () => {
         <span className="ml-3 text-xl">It Mate World </span>
       </a>
       <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a className="mr-5 hover:text-blue-300">Home</a>
-        <a className="mr-5 hover:text-blue-300">About</a>
-        <a className="mr-5 hover:text-blue-300">Skills</a>
-        <a className="mr-5 hover:text-blue-300">Projects</a>
+        <a href={"/"} className="mr-5 hover:text-blue-300">Home</a>
+        <a href={"#about"} className="mr-5 hover:text-blue-300">About</a>
+        <a href={"#skill"} className="mr-5 hover:text-blue-300">Skills</a>
+        <a href={"#project"} className="mr-5 hover:text-blue-300">Projects</a>
         <a href={"#Contact"} className="mr-5 hover:text-blue-300">Contact</a>
       </nav>
         <a href="/logo/mycv.pdf">
@@ -36,6 +36,7 @@ const Navbar = () => {
     </div>
   </header>
     </div>
+    
 </>
 
   )

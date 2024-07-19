@@ -16,7 +16,7 @@ const Contact = () => {
         marginWidth={0}
         scrolling="no"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.543092087849!2d74.2602764744246!3d31.50924054769403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190352c213c1af%3A0xd5c808a8a0446b5!2sJavaid%20Store!5e0!3m2!1sen!2s!4v1721349646969!5m2!1sen!2s"
-        style={{ filter: " contrast(1.2) opacity(0.4)" }}
+        style={{ filter: " contrast(1.2) opacity(0.8)" }}
       />
       <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
         <div className="lg:w-1/2 px-6">
